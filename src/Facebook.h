@@ -106,4 +106,9 @@
  */
 - (void)fbDidLogout;
 
+/**
+ * Called when the user is logged out
+ */
+- (void)facebook:(Facebook *)facebook didError:(NSError *)error;
+
 @end
